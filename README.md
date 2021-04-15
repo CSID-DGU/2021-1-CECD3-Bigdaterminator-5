@@ -3,7 +3,7 @@
 NLP 감성분석 기반 마케팅 시장분석
 
 # About Us
-*Team BIGTERMINATOR*
+*Team BIGDATERMINATOR*
 * 강우원(팀장)
 * 김소연
 * 김다윤
