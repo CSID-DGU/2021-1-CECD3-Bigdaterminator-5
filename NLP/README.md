@@ -64,4 +64,4 @@ KNU 한국어 감성사전
 [5] SenticNet-5.0, http://sentic.net/
 [6] 감정단어사전0603, http://datascience.khu.ac.kr/board/bbs/board.php?bo_table=05_01&wr_id=91
 [7] 김은영, “국어 감정동사 연구”, 2004.02, 학위논문(박사) - 전남대학교 국어국문학과 대학원
-[8] 트위터 형태소 분석기, https://github.com/twitter/twitter-korean-text
+[8] 트위터 형태소 분석기, https://github.com/twitter/twitter-korean-text 
