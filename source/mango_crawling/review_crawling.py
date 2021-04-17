@@ -89,10 +89,10 @@ print(noun_words)
 count = Counter(noun_words)
 words = dict(count.most_common())
 print(words)
-print(len(words))
+
 
 words_ = words
-words_save = pd.DataFrame({'words' : words_, 'amount' : len(words_)})
+words_save = pd.DataFrame(words_, index=[0])
 words_save.to_csv("mango_crawling_words.csv", mode='w', encoding='utf-8-sig')
 
 #wordcloud 시각화
