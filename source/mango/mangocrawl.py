@@ -14,7 +14,7 @@ from wordcloud import WordCloud
 
 url = input('input child url(ex: 4Zcp4HYDFaS9 ) : ')
 url = 'https://www.mangoplate.com/restaurants/'+url
-font_path_input = '/Users/yongheon/Desktop/code/template/malgun.ttf'
+font_path_input = 'C:/Windows/Fonts/malgun.ttf'
 browser = Chrome()
 browser.get(url)
 browser.implicitly_wait(2)
