@@ -8,8 +8,3 @@ NLP 감성분석 기반 마케팅 시장분석
 * 김소연
 * 김다윤
 * 정용헌
-
---------------------------------------
-## Crawling ex) wordcloud
-
-<img src="https://user-images.githubusercontent.com/70808954/115118053-70431c80-9fdc-11eb-872b-9c3f3457272c.png" width="600" height="350">
