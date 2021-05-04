@@ -60,7 +60,7 @@ def get_data(keyword):
             break
 
 def get_content(bs):
-    contents = bs.find('div', class_='post_article fr-view').get_text().strip().replace('\xa0', ' ').replace('\n', ' ').replace('\t', ' ').replace('=', '')
+    contents = bs.find('div', class_='post_article').get_text().strip().replace('\xa0', ' ').replace('\n', ' ').replace('\t', ' ').replace('=', '')
     return contents
 
 def get_comments(bs):
