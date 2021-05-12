@@ -16,9 +16,6 @@ if __name__ == "__main__":
     keyword = config['CRAWLER']['KEYWORD']
     result_path = config['EXCEL']['RESULT_PATH']
     print('============================')
-    print('키워드 :', keyword)
-    print('결과물 :', result_path)
-    print('============================')
 
     try:
         make_excel(result_path)
@@ -29,7 +26,7 @@ if __name__ == "__main__":
     print('============================')
 
     start_idx = 1
-    with tqdm(total=100, ncols=80, desc='작업 진행') as pbar:
+    with tqdm(total=100, ncols=80, desc='파일 생성 중') as pbar:
         for item in get_data(keyword):
             start_idx = append_excel(result_path, item, start_idx)
             pbar.update(1)
