@@ -5,17 +5,17 @@ from bs4 import BeautifulSoup
 from pprint import pprint
 
 # links
-def get_data(keyword):    
+def get_data():    
     def _get(page):
-        url = 'https://www.clien.net/service/group/community?&od=T31&category=0&po={}'.format(page)
+        url = 'https://www.clien.net/service/group/clien_all?&od=T33&category=0&po={}'.format(page)
         req = requests.get(url)
         bs = BeautifulSoup(req.text, 'lxml')
 
         # 범위 벗어난 페이지인 경우
-        if bs.find('div', class_='board-nav-area').get_text() == '':
+        if bs.find('div', class_='board-nav').get_text() == '':
             return [], False
 
-        container = bs.find('div', class_='nav_content') # 크롤링해올 공간
+        container = bs.find('div', class_='list_content') # 크롤링해올 공간
         divs = container.find_all('div', class_="list_item symph_row")
 
         result = list()
@@ -27,7 +27,7 @@ def get_data(keyword):
                 title = link_box.get_text().strip().replace('=', '')
 
                 view = div.find('div', class_="list_hit").find('span', class_="hit").get_text().strip().replace('=', '') # 조회수
-                date = div.find('div', class_="list_time").find('span', class_="time popover").get_text().strip().replace('=', '') # 작성날짜
+                date = div.find('div', class_="list_time").find('span', class_="timestamp").get_text().strip().replace('=', '') # 작성날짜
 
                 nickname = div.find('div', class_="list_author").find('span', class_="nickname") # 작성자
                 if nickname.find('img'):
@@ -80,7 +80,7 @@ def get_comments(bs):
                 temp['author'] = nickname.find('img')['alt']
             else:
                 temp['author'] = nickname.get_text().strip().replace('\n', ' ')
-            temp['date'] = item.find('span', class_='time popover').get_text().strip().replace('\xa0', ' ').replace('\n', '').replace('\t', '').replace('=', '')
+            temp['date'] = item.find('span', class_='timestamp').get_text().strip().replace('\xa0', ' ').replace('\n', '').replace('\t', '').replace('=', '')
             if '/' in temp['date']:
                 temp['date'] = temp['date'].split('/')[0].strip()
             temp['comment'] = item.find('div', class_='comment_view').get_text().strip().replace('\xa0', ' ').replace('\n', ' ').replace('\t', ' ').replace('=', '')
