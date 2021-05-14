@@ -5,31 +5,31 @@ from bs4 import BeautifulSoup
 from pprint import pprint
 
 # links
-def get_data(keyword):    
+def get_data():    
     def _get(page):
-        url = 'https://www.clien.net/service/search?q={}&sort=recency&p={}&boardCd=&isBoard=false'.format(keyword, page)
+        url = 'https://www.clien.net/service/group/clien_all?&od=T33&category=0&po={}'.format(page)
         req = requests.get(url)
         bs = BeautifulSoup(req.text, 'lxml')
 
         # 범위 벗어난 페이지인 경우
-        if bs.find('div', class_='board-nav-area').get_text() == '':
+        if bs.find('div', class_='board-nav').get_text() == '':
             return [], False
 
-        container = bs.find('div', class_='contents_jirum') # 크롤링해올 공간
-        divs = container.find_all('div', class_="list_item symph_row jirum")
+        container = bs.find('div', class_='list_content') # 크롤링해올 공간
+        divs = container.find_all('div', class_="list_item symph_row")
 
         result = list()
         for div in divs:
             try:
                 #title & link
-                link_box = div.find('div', class_="list_title oneline").find('a', class_='subject_fixed') # 게시글제목
+                link_box = div.find('div', class_="list_title").find('a', class_='list_subject') # 게시글제목
                 link = "https://www.clien.net" + link_box['href']
                 title = link_box.get_text().strip().replace('=', '')
 
                 view = div.find('div', class_="list_hit").find('span', class_="hit").get_text().strip().replace('=', '') # 조회수
                 date = div.find('div', class_="list_time").find('span', class_="timestamp").get_text().strip().replace('=', '') # 작성날짜
 
-                nickname = div.find('div', class_="list_author line").find('span', class_="nickname") # 작성자
+                nickname = div.find('div', class_="list_author").find('span', class_="nickname") # 작성자
                 if nickname.find('img'):
                     auth = nickname.find('img')['alt']
                 else:
