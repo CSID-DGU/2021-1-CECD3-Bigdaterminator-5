@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620397663030</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="네이트판 크롤러, 형태소 분석">
+      <created>1621006935831</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1621006935831</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,7 +258,8 @@
     <MESSAGE value="naver_blog" />
     <MESSAGE value="nate_pann 크롤러" />
     <MESSAGE value="네이트판 크롤러 - (대한민국 이슈 게시판) - 토큰화까지" />
-    <option name="LAST_COMMIT_MESSAGE" value="네이트판 크롤러 - (대한민국 이슈 게시판) - 토큰화까지" />
+    <MESSAGE value="네이트판 크롤러, 형태소 분석" />
+    <option name="LAST_COMMIT_MESSAGE" value="네이트판 크롤러, 형태소 분석" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618651408705">
