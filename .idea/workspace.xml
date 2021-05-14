@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66b839f2-9c8f-4480-8e4c-66be6f894f0e" name="Default Changelist" comment="&lt;length range 오류, 더보기(스크롤, 클릭), DF, 전처리&gt; 관련 수정" />
+    <list id="befdca29-0d64-4b55-b95c-2d9ecadad115" name="nate_pann 크롤러" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="claudia825 &lt;claudia825@dgu.ac.kr&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="dc073eca-4b92-40a9-bb88-e22cb33a8e78" />
+  </component>
+  <component name="ProjectId" id="1rI6Ac0sME53vHNF8spiX8ijVr0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
+  </component>
+  <component name="RunManager" selected="Python.mangocrawl">
+    <configuration name="mangocrawl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="빅데이터미네이터" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/mango" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/mango/mangocrawl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="review_crawling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="빅데이터미네이터" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/mango_crawling" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/mango_crawling/review_crawling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="theparkview_crawling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="빅데이터미네이터" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/mango_theparkview" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/mango_theparkview/theparkview_crawling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.review_crawling" />
+        <item itemvalue="Python.theparkview_crawling" />
+        <item itemvalue="Python.mangocrawl" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66b839f2-9c8f-4480-8e4c-66be6f894f0e" name="Default Changelist" comment="" />
+      <changelist id="befdca29-0d64-4b55-b95c-2d9ecadad115" name="nate_pann 크롤러" comment="" />
+      <created>1618651113501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618651113501</updated>
+    </task>
+    <task id="LOCAL-00001" summary="&lt;length range 오류, 더보기(스크롤, 클릭), DF, 전처리&gt; 관련 수정">
+      <created>1618672489253</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618672489253</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&lt;length range 오류, 더보기(스크롤, 클릭), DF, 전처리&gt; 관련 수정">
+      <created>1618672780293</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618672780293</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&lt;length range 오류, 더보기(스크롤, 클릭), DF, 전처리&gt; 관련 수정">
+      <created>1618673907757</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618673907757</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&lt;length range 오류, 더보기(스크롤, 클릭), DF, 전처리&gt; 관련 수정">
+      <created>1618674416656</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618674416656</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&lt;length range 오류, 더보기(스크롤, 클릭), DF, 전처리&gt; 관련 수정">
+      <created>1618675254152</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618675254152</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&lt;length range 오류, 더보기(스크롤, 클릭), DF, 전처리&gt; 관련 수정">
+      <created>1618675715786</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618675715786</updated>
+    </task>
+    <task id="LOCAL-00007" summary="키워드 입력으로 관련 네이버 블로그 url 크롤링 (미완성)">
+      <created>1619105602356</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619105602356</updated>
+    </task>
+    <task id="LOCAL-00008" summary="키워드 크롤링 (진행 중)">
+      <created>1619106250095</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619106250095</updated>
+    </task>
+    <task id="LOCAL-00009" summary="nate_pann 크롤러">
+      <created>1619683249320</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619683249321</updated>
+    </task>
+    <task id="LOCAL-00010" summary="naver_blog">
+      <created>1619683411577</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619683411577</updated>
+    </task>
+    <task id="LOCAL-00011" summary="nate_pann 크롤러">
+      <created>1619683613744</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1619683613744</updated>
+    </task>
+    <task id="LOCAL-00012" summary="네이트판 크롤러 - (대한민국 이슈 게시판) - 토큰화까지">
+      <created>1620397663030</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620397663030</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&lt;length range 오류, 더보기(스크롤, 클릭), DF, 전처리&gt; 관련 수정" />
+    <MESSAGE value="키워드 입력으로 관련 네이버 블로그 url 크롤링 (미완성)" />
+    <MESSAGE value="키워드 크롤링 (진행 중)" />
+    <MESSAGE value="naver_blog" />
+    <MESSAGE value="nate_pann 크롤러" />
+    <MESSAGE value="네이트판 크롤러 - (대한민국 이슈 게시판) - 토큰화까지" />
+    <option name="LAST_COMMIT_MESSAGE" value="네이트판 크롤러 - (대한민국 이슈 게시판) - 토큰화까지" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618651408705">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1618651408705" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618675146673">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1618675146673" />
+    <state x="239" y="65" width="1228" height="688" key="DiffContextDialog" timestamp="1621006742895">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="239" y="65" width="1228" height="688" key="DiffContextDialog/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1621006742895" />
+    <state width="1515" height="205" key="GridCell.Tab.0.bottom" timestamp="1618675862883">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="205" key="GridCell.Tab.0.bottom/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1618675862883" />
+    <state width="1515" height="205" key="GridCell.Tab.0.center" timestamp="1618675862883">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="205" key="GridCell.Tab.0.center/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1618675862883" />
+    <state width="1515" height="205" key="GridCell.Tab.0.left" timestamp="1618675862883">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="205" key="GridCell.Tab.0.left/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1618675862883" />
+    <state width="1515" height="205" key="GridCell.Tab.0.right" timestamp="1618675862883">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="205" key="GridCell.Tab.0.right/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1618675862883" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1618675639512">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="56" key="SettingsEditor/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1618675639512" />
+    <state x="617" y="325" key="VCS.ChangelistChooser" timestamp="1619683368022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="617" y="325" key="VCS.ChangelistChooser/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1619683368022" />
+    <state x="361" y="145" width="998" height="534" key="Vcs.Push.Dialog.v2" timestamp="1620397678534">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" width="998" height="534" key="Vcs.Push.Dialog.v2/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1620397678534" />
+    <state x="572" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618674516718">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="572" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1618674516718" />
+    <state x="419" y="199" key="git4idea.merge.GitPullDialog" timestamp="1618674635848">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="419" y="199" key="git4idea.merge.GitPullDialog/1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1618674635848" />
+  </component>
+</project>
