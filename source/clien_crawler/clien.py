@@ -112,6 +112,7 @@ for i in links:
         content = re.sub('[&nbsp;|\n|\t|\r]', '', content)
         content = re.sub('[\xa0]', '', content)
         content = re.sub('[ㅋ]', '', content)
+        content = re.sub('[님]', '', content)
         content = re.sub('[-=+_★♥♡,#/\?:╋^$.@*\"※~&%ㆍ!』\\‘|\(\)\[\]\<\>`\'…》—;]', '', content)    
         content = spacing(content)
         
