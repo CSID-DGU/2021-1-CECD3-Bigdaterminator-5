@@ -23,3 +23,19 @@
 ![image01](https://user-images.githubusercontent.com/48827431/122660202-7b701f80-d1ba-11eb-9777-1f53198180b4.png)
 
 2. 각 키워드가 속한 제목, 본문, 댓글 데이터를 모두 추출하여 감성 분석에 활용할 수 있도록 전처리를 진행한다.
+
+![image02](https://user-images.githubusercontent.com/48827431/122660226-d6a21200-d1ba-11eb-927b-cd46ab64157d.png)
+
+3. 전처리한 데이터에 대한 감성 분석을 진행하여 긍정, 부정, 중립 감성 점수를 계산하여 반환한다.
+
+![image03](https://user-images.githubusercontent.com/48827431/122660231-e02b7a00-d1ba-11eb-96d3-72bc3452fab0.png)
+
+4. 반환된 감성 분석 결과를 수치화 및 시각화하여 시스템 사용자에게 제공한다.
+
+![image04](https://user-images.githubusercontent.com/48827431/122660237-e7eb1e80-d1ba-11eb-950d-27c000df82e6.png)
+
+
+5. 최종 결과물 예시 목업 : 추후 카카오톡 플러스친구 구독 형태로 만든 챗봇을 개발하는 것을 목표로 한다.
+
+
+![image05](https://user-images.githubusercontent.com/48827431/122660238-ea4d7880-d1ba-11eb-84c3-81d927012da0.PNG)
