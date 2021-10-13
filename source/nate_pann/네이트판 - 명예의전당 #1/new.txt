@@ -1,3 +1,7 @@
+서이것저것	NNP
+일반칼국수	NNP
+요남편	NNP
+니다남편	NNP
 부모님	NNP
 시부모님	NNP
 선생님	NNP
